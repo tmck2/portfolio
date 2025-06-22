@@ -74,7 +74,7 @@ portfolioDecoder =
 
 rgb : Random.Generator Color.Color
 rgb =
-    Random.map3 Color.hsl (Random.map degrees (Random.float 250 266)) (Random.float 0.25 0.75) (Random.float 0.25 0.35)
+    Random.map3 Color.hsl (Random.float 250 266) (Random.float 0.25 0.75) (Random.float 0.25 0.35)
 
 
 
